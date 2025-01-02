@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="PyExecutor",
     author_email="belyankiss@gmail.com",
-    url="https://github.com/belyankiss/TelegramWindows.git",
+    url="https://github.com/belyankiss/autopost_tg",
     license="MIT",
     packages=find_packages(),
     classifiers=[
@@ -18,6 +18,8 @@ setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        "aiogram"
+        "aiogram",
+        "pydantic",
+        "python-dateutil"
     ],
 )
